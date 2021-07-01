@@ -9,6 +9,7 @@ namespace LogicalProgramming
             Console.WriteLine("welcome to LOGICAL PROGRAMMING!");
             Console.WriteLine("choose the program:");
             Console.WriteLine("1) Generating coupon:");
+            Console.WriteLine("2) Stopwatch:");
 
 
             Console.WriteLine("Enter your choice");
@@ -18,8 +19,10 @@ namespace LogicalProgramming
                 case 1:
                     CouponNumber.GenerateCoupon();
                     break;
-                // case 2:
-                //   break;
+                 case 2:
+                    StopWatch stopWatch = new StopWatch();
+                    stopWatch.ReadInput();
+                    break;
                 default:
                     Console.WriteLine("enter correct option");
                     break;

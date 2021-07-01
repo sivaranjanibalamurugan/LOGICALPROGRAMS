@@ -18,10 +18,10 @@ namespace LogicalProgramming
             int generateTime = 0;
             int[] coupon = new int[5];
 
-            //creating object for random class
+            // object creation  for random class
             Random random = new Random();
 
-            //check till total number of distinct coupon is received 
+            //checking  till total number of distinct coupon
             while (numOfCoupons < TOTAL_COUPON)
             {
 
@@ -48,7 +48,7 @@ namespace LogicalProgramming
                         numOfCoupons++;
                     }
                 }
-                //displays random number needed to generate 5 distinct coupon
+                //displays a random number needed to generate 5 distinct coupon
                 Console.WriteLine("Number of Time required to generate 5 distict coupon:" + generateTime);
 
                 //displays the distinct coupon
